@@ -1,4 +1,4 @@
-package com.github.rmannibucau.genovajug.presentation;
+package com.github.rmannibucau.genevajug.presentation;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.context.RequestScoped;

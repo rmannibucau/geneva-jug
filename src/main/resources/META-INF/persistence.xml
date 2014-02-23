@@ -9,7 +9,7 @@
     <properties>
       <property name="openejb.jpa.init-entitymanager" value="true" />
       <property name="openejb.jpa.auto-scan" value="true" />
-      <property name="openejb.jpa.auto-scan.package" value="com.github.rmannibucau.genovajug.domain" />
+      <property name="openejb.jpa.auto-scan.package" value="com.github.rmannibucau.genevajug.domain" />
 
       <property name="openjpa.RuntimeUnenhancedClasses" value="unsupported"/>
       <property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema(ForeignKeys=true)"/>

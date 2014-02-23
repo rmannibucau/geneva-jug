@@ -1,6 +1,6 @@
-package com.github.rmannibucau.genovajug.service;
+package com.github.rmannibucau.genevajug.service;
 
-import com.github.rmannibucau.genovajug.domain.Square;
+import com.github.rmannibucau.genevajug.domain.Square;
 
 import javax.ejb.Lock;
 import javax.ejb.LockType;

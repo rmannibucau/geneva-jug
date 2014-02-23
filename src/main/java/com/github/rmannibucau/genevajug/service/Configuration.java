@@ -1,4 +1,4 @@
-package com.github.rmannibucau.genovajug.service;
+package com.github.rmannibucau.genevajug.service;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.inject.Produces;

@@ -8,7 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.github.com</groupId>
-  <artifactId>genova-jug</artifactId>
+  <artifactId>geneva-jug</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
@@ -208,7 +208,7 @@
           </execution>
         </executions>
         <configuration>
-          <includes>com/github/rmannibucau/genovajug/domain/*.class</includes>
+          <includes>com/github/rmannibucau/genevajug/domain/*.class</includes>
           <addDefaultConstructor>true</addDefaultConstructor>
           <enforcePropertyRestrictions>true</enforcePropertyRestrictions>
         </configuration>

@@ -1,6 +1,6 @@
-package com.github.rmannibucau.genovajug.batch.processor;
+package com.github.rmannibucau.genevajug.batch.processor;
 
-import com.github.rmannibucau.genovajug.domain.Square;
+import com.github.rmannibucau.genevajug.domain.Square;
 
 import javax.batch.api.chunk.ItemProcessor;
 import javax.inject.Named;

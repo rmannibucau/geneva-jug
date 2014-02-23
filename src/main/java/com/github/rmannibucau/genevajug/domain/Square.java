@@ -1,4 +1,4 @@
-package com.github.rmannibucau.genovajug.domain;
+package com.github.rmannibucau.genevajug.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.EnumType;

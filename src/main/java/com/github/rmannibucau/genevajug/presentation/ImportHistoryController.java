@@ -1,4 +1,4 @@
-package com.github.rmannibucau.genovajug.presentation;
+package com.github.rmannibucau.genevajug.presentation;
 
 import javax.batch.operations.JobOperator;
 import javax.enterprise.context.RequestScoped;

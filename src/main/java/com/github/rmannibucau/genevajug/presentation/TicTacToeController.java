@@ -1,7 +1,7 @@
-package com.github.rmannibucau.genovajug.presentation;
+package com.github.rmannibucau.genevajug.presentation;
 
-import com.github.rmannibucau.genovajug.domain.Square;
-import com.github.rmannibucau.genovajug.service.TicTacToeService;
+import com.github.rmannibucau.genevajug.domain.Square;
+import com.github.rmannibucau.genevajug.service.TicTacToeService;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;

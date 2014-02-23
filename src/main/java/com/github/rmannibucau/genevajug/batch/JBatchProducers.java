@@ -1,4 +1,4 @@
-package com.github.rmannibucau.genovajug.batch;
+package com.github.rmannibucau.genevajug.batch;
 
 import javax.batch.operations.JobOperator;
 import javax.batch.runtime.BatchRuntime;

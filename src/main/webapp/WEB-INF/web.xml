@@ -5,8 +5,8 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
                              http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
 
-  <display-name>genova-jug</display-name>
-  <description>GenovaJUG</description>
+  <display-name>geneva-jug</display-name>
+  <description>GenevaJUG</description>
 
   <context-param>
     <param-name>javax.faces.PROJECT_STAGE</param-name>

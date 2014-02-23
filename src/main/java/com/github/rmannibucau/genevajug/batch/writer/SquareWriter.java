@@ -1,4 +1,4 @@
-package com.github.rmannibucau.genovajug.batch.writer;
+package com.github.rmannibucau.genevajug.batch.writer;
 
 import javax.batch.api.chunk.AbstractItemWriter;
 import javax.inject.Named;

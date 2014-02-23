@@ -1,4 +1,4 @@
-package com.github.rmannibucau.genovajug.batch.reader;
+package com.github.rmannibucau.genevajug.batch.reader;
 
 import javax.batch.api.BatchProperty;
 import javax.batch.api.chunk.AbstractItemReader;

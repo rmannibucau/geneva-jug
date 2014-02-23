@@ -1,7 +1,7 @@
-package com.github.rmannibucau.genovajug.websocket;
+package com.github.rmannibucau.genevajug.websocket;
 
-import com.github.rmannibucau.genovajug.domain.Square;
-import com.github.rmannibucau.genovajug.service.TicTacToeService;
+import com.github.rmannibucau.genevajug.domain.Square;
+import com.github.rmannibucau.genevajug.service.TicTacToeService;
 
 import javax.inject.Inject;
 import javax.websocket.OnClose;
