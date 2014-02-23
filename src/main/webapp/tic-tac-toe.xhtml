@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<ui:composition template="/WEB-INF/template/layout.xhtml">
+    <ui:define name="content">
+        <h:outputLink value="#" onclick="ticTacToe.connectOrNoop()">Start</h:outputLink>
+        <h:outputText value="|"/>
+        <h:outputLink value="#" onclick="ticTacToe.disconnect()">Stop</h:outputLink>
+        <br/>
+
+        <ui:include src="/WEB-INF/template/grid.xhtml">
+            <ui:param name="table" value="#{ticTacToe.defaultTable}" />
+        </ui:include>
+
+        <br/>
+
+        <div id="ws-messages"></div>
+
+        <h:outputScript library="js" name="jquery-2.1.0.min.js"/>
+        <h:outputScript library="js" name="tic-tac-toe.js"/>
+    </ui:define>
+</ui:composition>
+
+</html>

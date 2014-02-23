@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<ui:composition template="/WEB-INF/template/layout.xhtml">
+    <ui:define name="content">
+        <ui:include src="/WEB-INF/template/grid.xhtml">
+            <ui:param name="table" value="#{history.partyHistory}" />
+        </ui:include>
+    </ui:define>
+</ui:composition>
+</html>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<ui:composition template="/WEB-INF/template/layout.xhtml">
+    <ui:define name="content">
+        <h:form>
+            <fieldset>
+                <legend>Import</legend>
+                <h:outputLabel for="data">CSV data to import</h:outputLabel>
+                <h:inputTextarea id="data" value="#{importHistory.data}" required="true" />
+                <h:message id="dataMessage" for="data"/>
+                <br/>
+                <h:commandButton value="Import" action="#{importHistory.doImport}" />
+            </fieldset>
+        </h:form>
+    </ui:define>
+</ui:composition>
+</html>

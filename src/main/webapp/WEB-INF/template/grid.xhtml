@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:body>
+    <ui:composition>
+        <table border="1px" id="tic-tac-toe-table">
+            <ui:repeat value="#{table}" var="it">
+                <tr>
+                    <ui:repeat value="#{it}" var="square">
+                        <td id="ttt${square.x}${square.y}" class="square" onclick="ticTacToe.play('#{square.x}', '#{square.y}');">
+                            <h:outputText value="#{square.player.name()}" rendered="#{square.player != null}" />
+                            <h:outputText value="-" rendered="#{square.player == null}" />
+                        </td>
+                    </ui:repeat>
+                </tr>
+            </ui:repeat>
+        </table>
+    </ui:composition>
+</h:body>
+</html>

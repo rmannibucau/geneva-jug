@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<tomee>
+  <Resource id="jdbc/tic-tac-toe" type="DataSource">
+    JdbcUrl = jdbc:hsqldb:mem:tic-tact-toe
+  </Resource>
+</tomee>

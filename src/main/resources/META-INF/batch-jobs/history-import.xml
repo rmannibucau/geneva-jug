@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job id="history-import" xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="1.0">
+  <step id="doImport">
+    <chunk item-count="5">
+      <reader ref="dataReader">
+        <properties>
+          <property name="data" value="#{jobParameters['data']}" />
+        </properties>
+      </reader>
+      <processor ref="squareProcessor" />
+      <writer ref="squareWriter" />
+    </chunk>
+  </step>
+</job>
