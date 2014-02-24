@@ -1,0 +1,15 @@
+table {
+    border: 1px solid black;
+    table-layout: fixed;
+    width: 228px;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid black;
+    overflow: hidden;
+    width: 75px;
+    height: 80px;
+    text-align: center;
+    font-size: 75px;
+}
