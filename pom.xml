@@ -40,14 +40,6 @@
       <scope>provided</scope>
     </dependency>
 
-    <!-- Monitoring -->
-    <dependency>
-      <groupId>org.apache.sirona</groupId>
-      <artifactId>sirona-reporting</artifactId>
-      <version>${sirona.version}</version>
-      <classifier>classes</classifier>
-    </dependency>
-
     <!-- Testing -->
     <dependency>
       <groupId>junit</groupId>
