@@ -1,11 +1,13 @@
-table {
+/* main grid */
+#tic-tac-toe-table {
     border: 1px solid black;
     table-layout: fixed;
     width: 228px;
     margin: auto;
 }
 
-th, td {
+/* a cell of the grid */
+.square {
     border: 1px solid black;
     overflow: hidden;
     width: 75px;
@@ -13,3 +15,4 @@ th, td {
     text-align: center;
     font-size: 75px;
 }
+

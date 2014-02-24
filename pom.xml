@@ -79,6 +79,7 @@
         <configuration>
           <simpleLog>true</simpleLog>
           <context>ROOT</context>
+          <quickSession>true</quickSession>
           <javaagents>
             <javaagent>org.apache.sirona:sirona-javaagent:${sirona.version}:jar:shaded</javaagent>
           </javaagents>
